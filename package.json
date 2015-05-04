@@ -1,0 +1,12 @@
+{
+  "name": "fra-ster",
+  "version": "0.0.1",
+  "description": "A Free-Range Application hoster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "d2l"
+  ]
+}
