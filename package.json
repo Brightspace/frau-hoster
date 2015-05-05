@@ -1,12 +1,23 @@
 {
-  "name": "fra-ster",
+  "name": "frau-hoster",
   "version": "0.0.1",
   "description": "A Free-Range Application hoster.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test:js": "jasmine JASMINE_CONFIG_PATH=jasmine.json",
+    "test:lint": "jshint src test index.js",
+    "test": "npm run test:lint -s && npm run test:js"
   },
   "keywords": [
     "d2l"
-  ]
+  ],
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "jasmine": "^2.3.1",
+    "jshint": "^2.7.0"
+  },
+  "dependencies": {
+    "cors": "^2.6.0",
+    "express": "^4.12.3"
+  }
 }

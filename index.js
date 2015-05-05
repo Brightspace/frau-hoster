@@ -1,3 +1,5 @@
 'use strict';
 
-module.exports = { };
+module.exports = { 
+	appHoster: require('./src/appHoster'),
+};

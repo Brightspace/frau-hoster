@@ -1,23 +1,21 @@
-Utilities for building free-range apps.
-
 ## Usage
 
 Install `fra-ster` as a dev dependency:
 
 ```shell
-npm install --save-dev fra-ster
+npm install --save-dev frau-hoster
 ```
 
 Require the package:
 
 ```javascript
-var fra-ster = require('fra-ster');
+var fraster = require('frau-hoster');
 ```
 
 Create a hoster.
 
 ```javascript
-var hoster = fra-ster.getHoster( url );
+var hoster = fraster.getHoster( opts );
 // Host the free-range application.
 hoster.host();
 ```
